@@ -1,0 +1,374 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+ 
+    <script src="https://kit.fontawesome.com/c8a7711137.js" crossorigin="anonymous"></script>
+ 
+    <title>Дипломная работа</title>
+ 
+    <style>
+ 
+      body {
+        background-color: rgb(241, 253, 253);
+      }
+ 
+      .middle {
+        position: absolute;
+          top: 300px;
+          left: 100px;
+          
+      }
+ 
+        .my_class {
+          position: absolute;
+          top: 200px;
+          left: 130px;
+          background-color: rgb(179, 233, 243);
+ 
+        }
+ 
+         
+ 
+         #but {
+           
+           background: rgb(0, 174, 255);
+           position: relative;
+           left: 50px;
+           top: 3px;
+         }
+ 
+         #but2 {
+           background-color: coral;
+           position: relative;
+           top: 7px;
+         }
+ 
+         #user{
+          position: absolute;
+          top: 30px;
+          right: 170px;
+          
+         }
+
+         #castle {
+           position: absolute;
+           left: 425px;
+           top: 80px;
+         }
+ 
+    </style>
+  </head>
+  <body>
+ 
+    <div class="container mt-4">
+      <div class="row">
+        <div class="col-md-2">
+
+            
+ 
+                <i class="fas fa-plane-departure fa-lg mt-5" style="color: rgb(82, 17, 202)"><br>Евротур</i>
+            
+           
+
+          <div class="tel">
+            <i class="fas fa-phone-alt"></i> <a href="tel:+7 (495)775-10-00"> +7-495-775-10-00</a>
+            </div>
+            <div class="email">
+              <i class="far fa-envelope fa-lg"></i><a href="mailto:europe@mail.ru"> europe@mail.ru</a></div>
+            </div>
+
+
+
+      <div class="col-md-8">
+
+        
+
+      <ul class="nav justify-content-center">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">О компании</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Общая информация</a>
+            <a class="dropdown-item" href="#">Новости</a>
+            <a class="dropdown-item" href="#">Вакансии</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Отзывы</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Поиск туров</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Отели</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Авиабилеты</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Экскурсии</a>
+        </li>
+        
+      </ul>
+
+     
+      
+
+    </div>
+
+    <div class="col-md-2" id="user">
+    <i class="fas fa-user fa-lg" style="color: darkblue;"></i>
+    <a href ="auth.html">Личный кабинет</a>
+</div>
+</div>
+ 
+
+
+    </div>
+    <img src="../img/abbaye.jpg" id="castle">
+ 
+    <div class="container my_class">
+  
+ 
+      <form>
+        <div class="form-row" id="podbor">
+          <label for="podbor">Подбор тура</label>
+ 
+          <div class="col-md-2">
+            
+            <select class="custom-select" id="inputGroupSelect01">
+              <option selected>Город вылета...</option>
+              <option value="1">Москва</option>
+              <option value="2">Санкт-Петербург</option>
+              <option value="3">Ростов на Дону</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+            <select class="custom-select" id="inputGroupSelect01">
+              <option selected>Страна...</option>
+              <option value="1">Чехия</option>
+              <option value="2">Италия</option>
+              <option value="3">Испания</option>
+              <option value="3">Франция</option>
+              <option value="3">Кипр</option>
+            </select>
+          </div>
+          <div class="col-md-2">
+            <input type="text" class="form-control" placeholder="Дата начала">
+          </div>
+          <div class="col-md-1">
+            <input type="text" class="form-control" placeholder="Ночей">
+          </div>
+          <div class="col-md-2">
+            <input type="text" class="form-control" placeholder="Туристы">
+          </div>
+          <div class="col-md-1">
+          <button onclick="" id="but">Поиск <i class="fas fa-search" style="color: darkorchid;"></i></button>
+          
+        </div>
+        </div>
+      </form>
+  </div>
+ 
+  
+
+
+ 
+    <div class="container middle">
+      <div class="row">
+        
+  <div class="col-md">
+      <ul class="nav flex-column">
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true"><h3>Страны</h3></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://a0528167.xsph.ru/chehia.html"><img src="../img/флаг Чехия.jpg"> Чехия</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://a0528167.xsph.ru/italy.html"><img src="../img/флаг Италия.jpg"> Италия</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://a0528167.xsph.ru/spain.html"><img src="../img/флаг Испания.jpg"> Испания</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://a0528167.xsph.ru/france.html"><img src="../img/флаг Франция.jpg"> Франция</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="http://a0528167.xsph.ru/cyprus.html"><img src="../img/флаг Кипр1.png"> Кипр</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active mt-3" href="#" style="color: coral;"><h4>АКЦИИ</h4></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Доп.услуги</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Страхование</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Памятка туриста</a>
+        </li>
+        
+      </ul>
+ 
+      
+    </div>
+ 
+    <div class="col-md-8">
+ 
+      <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
+          <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="../img/Чехия.jpg" class="d-block w-100" alt="" height="500">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>ЧЕХИЯ</h1>  
+            </div>
+          </div>
+ 
+          <div class="carousel-item">
+            <img src="../img/Италия.jpg" class="d-block w-100" alt="..." height="500">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>ИТАЛИЯ</h1>   
+            </div>
+          </div>
+ 
+          <div class="carousel-item">
+            <img src="../img/Испания.jpg" class="d-block w-100" alt="..." height="500">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>ИСПАНИЯ</h1>
+            </div>     
+          </div>
+ 
+          <div class="carousel-item">
+            <img src="../img/Франция.jpg" class="d-block w-100" alt="..." height="500">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>ФРАНЦИЯ</h1>
+            </div>     
+          </div>
+ 
+          <div class="carousel-item">
+            <img src="../img/cyprus.jpg" class="d-block w-100" alt="..." height="500">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>КИПР</h1>
+            </div>     
+          </div>
+ 
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Предыдущий</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Следующий</span>
+        </a>
+     
+    </div>
+  </div>
+ 
+  <div class="col-md"> 
+ 
+  <p>Рассчитать стоимость тура в рублях по внутреннему<br> курсу компании:<br></p>
+    <input type="text" placeholder="введите сумму в евро" id="num1"/>
+    <button onclick="sum()" id="but2">Рассчитать</button>
+ 
+    <h6><br><br><i class="far fa-money-bill-alt" style="background-color: green;"></i> Гарантия лучшей цены</h6><p>наши цены самые конкурентноспособные на рынке</p>
+    <h6><br><i class="fas fa-ribbon" style="background-color: yellow;"></i> Гарантия надежного бренда</h6><p>Евротур - один из лидеров туристического рынка в России, работаем с 1995 года</p>
+ 
+  </div>
+ 
+  </div>
+ 
+  <div class="row">
+  <div class="col-md">
+    <h4>Наши контакты</h4>
+          <h5>Адрес</h5>
+           <p>г.Москва, ул.Новохохловская, д.23, стр.1
+            <br></p>
+            <h5>Телефон</h5><a href="tel:+7 (495)775-10-00">+7-495-775-10-00</a>
+             <h5>E-mail</h5><a href="mailto:europe@mail.ru">europe@mail.ru</a>
+              <h5>График работы</h5>
+               <p>Понедельник-суббота: с 9-00 по 21-00</p>
+ 
+   <h5>Мы в соцсетях:</h5>
+  <i class="fab fa-odnoklassniki-square fa-2x" style="background: yellow"></i>
+  <i class="fab fa-vk fa-2x" style="background: rgb(150, 150, 236)"></i>
+  <i class="fab fa-facebook fa-2x" style="background: rgb(130, 231, 238)"></i>
+  <i class="fab fa-twitter fa-2x" style="background: rgb(118, 174, 247)"></i>
+  <i class="fab fa-instagram-square fa-2x" style="background: rgb(241, 139, 156)"></i>
+  <i class="fab fa-telegram fa-2x" style="background: rgb(68, 238, 119)"></i> 
+  </div>
+ 
+  <div class="col-md-6">
+    <h6>Есть вопросы, жалобы, пожелания? Пишите:</h6>
+    <form action="">
+    <div class="form-group">
+     <input type="text" class="form-control" placeholder="Имя"/>
+</div>
+<div class="form-group">
+     <input type="email" class="form-control" placeholder="E-mail"/>
+  </div>
+  <div class="form-group">
+      <textarea class="form-control" cols="30" rows="10" placeholder="Сообщение"></textarea>
+  </div>
+  <div class="form-group">
+      <input type="submit" class="form-control btn btn-primary">
+  </div>
+</form>
+</div>
+</div>
+
+
+ 
+<footer>
+  <div class="container mt-5 text-center"><b>©2021 Все права защищены</b></div>
+ </footer>
+ 
+    </div>
+    
+    
+  
+ 
+    <script>
+ 
+    let rub = 89;
+ 
+    let euro = document.getElementById("num1");
+        
+ 
+function sum(){
+     // console.log("Результат: " +(+euro.value*rub));
+     alert("Стоимость Вашего тура в рублях: " +(+euro.value*rub) + " руб");
+     }
+    
+    </script>
+    
+ 
+    
+ 
+    <!-- Optional JavaScript; choose one of the two! -->
+ 
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+ 
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
